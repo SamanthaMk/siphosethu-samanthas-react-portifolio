@@ -12,15 +12,16 @@
 
 :root {
  --color-bg:#1f1f38;
- --color-bg-variant:#2c2c6c; /* This will be the background color of the whole website */
- --color-primary:#4db5ff;
- --color-primary-variant:rgba(77,181,255,0.4);
- --color-white:#fff;
+ --color-bg-variant:linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%); /* This will be the background color of the whole website */
+ --color-primary: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+ --color-primary-variant:rgba(245, 247, 249, 0.4);
+ --color-white:#ffffff;
  --color-light:rgba(255,255,255,0.6);
  --transition:all 400ms ease;
  --container-width-lg: 75%; /*Width the will wrap each element will be included i  every section*/
  --container-width-md: 86%; /* media queriies for screen sizes*/
  --container-width-sm: 90%;
+ --color-secondary:#430f58;
 }
 
 html{
@@ -33,7 +34,7 @@ html{
 }
  body {
 font-family: 'Poppins', sans-serif;
-background: var(--color-bg);
+background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(113,0,101,1) 50%, rgba(19,3,17,1) 84%, rgba(19,3,17,1) 93%);
 color: var(--color-white);
 line-height: 1.7;
  }

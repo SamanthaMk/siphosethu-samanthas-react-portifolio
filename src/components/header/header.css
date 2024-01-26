@@ -1,7 +1,8 @@
 header{
     height:100vh;
-    padding: 7rem;
-    overflow: hidden;
+    padding: 9rem;
+    margin-top: -9rem;
+
 }
 
 .header__container{
@@ -39,16 +40,78 @@ header{
 /*===== Image/Profile pic=====*/
 
 .me{
-    background:linear-gradient(var(--color-primary),transparent) ;
+    background:black;
     width:22rem;
-    height: 30rem;
+    height: 22rem;
     position: absolute;
     left:calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
+    margin-top: 3rem;
+    border-radius:70%;
     padding: 3.9rem 0.7rem 0.8rem 0.8rem ;
-    
+    overflow: hidden;
+}
+
+.me::before{
+content: '';
+position: absolute;
+inset:1px 120px;
+background: linear-gradient(315deg,#86daef, rgb(236, 47, 176));
+transition: 0.5s;
+animation: animate 4s linear infinite;
+}
+.me:hover::before{
+    inset: -20px 0px;
+}
+
+@keyframes animate
+{
+  0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.me::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #360731;
+    border-radius:50%;
+    z-index:1;
+}
+
+.content{
+    position: absolute;
+    inset: 30px;
+    border: 4px solid black;
+    z-index: 3;
+    border-radius: 50%;
+    overflow:hidden;
+   
+}
+.content img{
+    position: absolute;
+    top: 0px;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:0.5s;
+    pointer-events: none;
+}
+.me:hover .content img{
+    opacity: 2;
+}
+
+.content h2
+{
+    position:relative;
+    font-size:1.5em;
+
 }
 
 /*===== Scroll Down=====*/

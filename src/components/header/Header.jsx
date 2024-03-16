@@ -1,8 +1,8 @@
-import React from 'react'
-import CTA from './CTA'
-import './header.css'
-import ME from '../../assets/picofme.jpg'
-import HeaderSocials from './HeaderSocials'
+import React from "react";
+import CTA from "./CTA";
+import "./header.css";
+import ME from "../../assets/real-profile.jpeg";
+import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Siphosethu Samantha M</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5 className="text-light">Frontend Developer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">
@@ -25,6 +25,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
@@ -7,7 +7,7 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/siphosethu-samantha-mkandwana-a80018279"
+        href="https://www.linkedin.com/in/siphosethu-mkandwana-a80018279/"
         target="_blank"
         rel="noreferrer"
       >
@@ -26,5 +26,5 @@ const HeaderSocials = () => {
       </a>
     </div>
   );
-}
-export default HeaderSocials
+};
+export default HeaderSocials;

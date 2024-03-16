@@ -1,64 +1,19 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from '../../assets/interior-decor.png';
-import IMG2 from '../../assets/fish-recipe.png';
-import IMG3 from "../../assets/Forecast-app.png";
-import IMG4 from "../../assets/web.png";
-import IMG5 from "../../assets/webbie.png";
-import IMG6 from '../../assets/yourgurt.png';
-
-//Create an Array method that will be mapped to
+import IMG1 from "../../assets/zoom-car-hire.png";
 
 const data = [
   {
-  id: 1,
-  image: IMG1,
-  title:"Amazing Properties",
-  info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  github:'https://github.com',
-  demo: 'https://github.com',
+    id: 1,
+    image: IMG1,
+    title: "Zoom Fleet Car Rentals",
+    info: "Project completed using Javascript React,TypeScript, Next.js, Tailwind CSS, Headless UI, with an Api and Deployed using Vercel.",
+    github: "https://github.com/SamanthaMk/zoom_fleet_rentals",
+    demo: "https://zoom-fleet-rentals.vercel.app/",
+    paragraph:
+      "Welcome to Zoom Fleet Rentals, the ultimate car rental destination offering a perfect blend of luxury and affordability Our world-class fleet caters to diverse tastes and budgets, ensuring an unforgettable travel experience.With seamless bookings, a user-friendly app, and top-notch customer service, we proudly stand as the best car rental business globally. Elevate your journey with Zoom Fleet Rentals where every drive is an adventure!",
   },
-  {
-  id:2,
-  image: IMG2,
-  title:'Declicious Recipes forever',
-   info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  github:'https://github.com',
-  demo:'https://github.com',
-  },
-  {
-    id:3,
-  image:IMG3,
-  title:'Daily Forecast rush',
-   info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  github:'https://github.com',
-  demo:'https://github.com',
-  },
-  {
-    id:4,
-  image:IMG4,
-  title :'Travel Blogger',
-   info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  github:'https://github.com',
-  demo:'https://github.com',
-  },
-  {
-    id:5,
-  image: IMG5,
-  title:'Weather Com 24',
-   info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  github : 'https://github.com',
-  demo:'https://github.com',
-  },
-  {
-    id: 6,
-  image:IMG6,
-  title:'Yogurt Delux cafe',
-   info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  github:'https://github.com',
-  demo:'https://github.com',
-  },
-]
+];
 
 const Projects = () => {
   return (
@@ -67,32 +22,39 @@ const Projects = () => {
       <h2>Projects</h2>
 
       <div className="container projects__container">
-      {
-        data.map(({id, image, title,info, github, demo}) => {
-          return(
+        {data.map(({ id, image, title, info, github, demo, paragraph }) => {
+          return (
             <article key={id} className="projects__item">
-          <div className="project__item-image">
-            <img src={image} alt={title} />
-          </div>
-          <h3>{title}</h3>
-          <p className="project__info">{info}</p>
-          <div className="project__item-cta">
-            <a href={github} className="btn" target="_blank" rel="noreferrer">
-              Github
-            </a>
-            <a
-              href={demo}
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-       </article>
-          )
-        })
-      }
+              <div className="project__item-image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <p className="project__info">
+                {" "}
+                <h3>{info}</h3>
+              </p>
+              <div className="project__item-cta">
+                <p className="card__para">{paragraph}</p>
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );

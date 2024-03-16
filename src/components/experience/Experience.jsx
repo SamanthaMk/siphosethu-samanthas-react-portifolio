@@ -1,5 +1,5 @@
-import React from 'react'
-import './experience.css'
+import React from "react";
+import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 const Experience = () => {
   return (
@@ -55,6 +55,48 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>AJAX/JSON</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>UI/UX Design</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>SEO Optimization</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4> Figma</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Collaboration & Communication</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Headless UI</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
         {/*=======END OF FRONTEND=================*/}
@@ -64,15 +106,15 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience-icons" />
               <div>
-                <h4> Node JS</h4>
-                <small className="text-light">Experienced</small>
+                <h4> Python </h4>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience-icons" />
               <div>
-                <h4> Python</h4>
-                <small className="text-light">Basic</small>
+                <h4>Node JS/Next JS</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -89,11 +131,74 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4> API Management</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Debug & Testing</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>MERN Stack</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Java</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Git/Github</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Problem-Solving Skills</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Attention to Detail</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>Deployment</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience-icons" />
+              <div>
+                <h4>AI Microsoft Certificate</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Experience
+export default Experience;

@@ -54,7 +54,7 @@ const Contact = () => {
             <h4>Linkedin</h4>
             <h5>Siphosethu Mkandwana</h5>
             <a
-              href="www.linkedin.com/in/siphosethu-mkandwana-a80018279"
+              href="https://www.linkedin.com/in/siphosethu-mkandwana-a80018279/"
               target="_blank"
               rel="noreferrer"
             >

@@ -1,54 +1,78 @@
-.projects__container{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-.projects__item{
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+.projects__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
-.projects__item:hover{
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.card__para {
+  display: column;
+  border: 1px solid white;
+  background: var(--color-primary);
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
-.project__item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
+a {
+  display: flex;
 }
-.project__item-image h3{
-    margin: 1.2rem 0 2rem;
-}
-
-.project__item-cta{
-    display: flex;
-    gap: 1rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+.projects__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
-.project__info{
-    margin: top 0.9.5rem;
-    font-size: 0.8rem;
+.project__item-image {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 50rem;
+}
+.project__item-image h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.project__item-cta {
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project__info {
+  margin: top 0.9.5rem;
+  font-size: 0.8rem;
 }
 
 /*======Media Queries (Medium Devices e.g tablets) ======*/
-@media screen and (max-width:1024px){  
-.projects__container{
-    grid-template-columns: 1fr 1fr;
+@media screen and (max-width: 1024px) {
+  .projects__container {
+    grid-template-columns: 1fr;
     gap: 1.2rem;
+  }
+  .project__item-image {
+    width: 25rem;
+  }
 }
-}
-
 /*======Media Queries (Small Devices e.g mobile phones) ======*/
-@media screen and (max-width:600px){ 
-.projects__container{
+@media screen and (max-width: 600px) {
+  .projects__container {
     grid-template-columns: 1fr;
     gap: 1rem;
-}
+  }
+  .project__item-image {
+    width: 20rem;
+  }
+  .project__item-cta {
+    display: block;
+    padding: 0.5rem;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
 }

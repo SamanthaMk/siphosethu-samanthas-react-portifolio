@@ -1,11 +1,22 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from "../../assets/zoom-car-hire.png";
+import IMG1 from "../../assets/nikey.png";
+import IMG2 from "../../assets/zoom-car-hire.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
+    title: "NIKE cloned App",
+    info: "Project completed using Javascript React, Vite & Tailwind CSS and is mobile responsive,Repository found on Github and  Deployed using Vercel.",
+    github: "https://github.com/SamanthaMk/nike",
+    demo: "https://nike-two-flame.vercel.app/",
+    paragraph:
+      "Shop the latest Nike products, including the new Air Max Dn with Dynamic Air Unit, Explore shoes, clothing, gifts and more for men, women and kids",
+  },
+  {
+    id: 2,
+    image: IMG2,
     title: "Zoom Fleet Car Rentals",
     info: "Project completed using Javascript React,TypeScript, Next.js, Tailwind CSS, Headless UI, with an Api and Deployed using Vercel.",
     github: "https://github.com/SamanthaMk/zoom_fleet_rentals",

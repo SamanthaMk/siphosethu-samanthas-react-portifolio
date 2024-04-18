@@ -1,18 +1,18 @@
 import React from "react";
 import "./projects.css";
-import IMG1 from "../../assets/nikey.png";
+import IMG1 from "../../assets/movie-m-h.png";
 import IMG2 from "../../assets/zoom-car-hire.png";
+import IMG3 from "../../assets/nikey.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "NIKE cloned App",
-    info: "Project completed using Javascript React, Vite & Tailwind CSS and is mobile responsive,Repository found on Github and  Deployed using Vercel.",
-    github: "https://github.com/SamanthaMk/nike",
-    demo: "https://nike-two-flame.vercel.app/",
-    paragraph:
-      "Shop the latest Nike products, including the new Air Max Dn with Dynamic Air Unit, Explore shoes, clothing, gifts and more for men, women and kids",
+    title: "Movie Rush APP",
+    info: "Project completed using Html and CSS ,Repository found on Github and  Deployed using Vercel.",
+    github: "https://github.com/SamanthaMk/movie-rush",
+    demo: "https://movie-rush-henna.vercel.app/",
+    paragraph:"Welcome to Movie Rush, where every movie night is an adventure! Explore a curated selection of blockbuster hits, timeless classics, and hidden gems. With personalized recommendations and easy navigation, finding your next favorite film is a thrill in itself. Join us and elevate your movie-watching experience to new heights!"
   },
   {
     id: 2,
@@ -23,6 +23,16 @@ const data = [
     demo: "https://zoom-fleet-rentals.vercel.app/",
     paragraph:
       "Welcome to Zoom Fleet Rentals, the ultimate car rental destination offering a perfect blend of luxury and affordability Our world-class fleet caters to diverse tastes and budgets, ensuring an unforgettable travel experience.With seamless bookings, a user-friendly app, and top-notch customer service, we proudly stand as the best car rental business globally. Elevate your journey with Zoom Fleet Rentals where every drive is an adventure!",
+  },  
+  {
+    id: 3,
+    image: IMG3,
+    title: "NIKE cloned App",
+    info: "Project completed using Javascript React, Vite & Tailwind CSS and is mobile responsive,Repository found on Github and  Deployed using Vercel.",
+    github: "https://github.com/SamanthaMk/nike",
+    demo: "https://nike-two-flame.vercel.app/",
+    paragraph:
+      "Shop the latest Nike products, including the new Air Max Dn with Dynamic Air Unit, Explore shoes, clothing, gifts and more for men, women and kids",
   },
 ];
 

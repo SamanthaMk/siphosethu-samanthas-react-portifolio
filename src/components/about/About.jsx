@@ -23,12 +23,12 @@ const About = () => {
             committed to delivering high-quality, responsive web applications.I
             am eager to collaborate on innovative projects and contribute to
             creating engaging user experiences. Driven by a relentless pursuit
-            of knowledge, I am currently immersed in studying Python, MySQL,
-            Java, and C/#C, to enhance my skills and to  contribute meaningfully
+            of knowledge. I am currently immersed in studying Python, MySQL,
+            Java, and C/#C, to enhance my skills and to contribute meaningfully
             to the tech industry. This dedication led me to undertake a rigorous
             full-stack course with Alx Africa, aligning with my goal to bring
             versatility to my professional repertoire both Front-end and
-            Back-end. My desire annd passion is to apply this diverse skill set
+            Back-end. My desire and passion is to apply this diverse skill set
             and contribute to shaping the future of technology by staying
             updated with current industry trends,thats why I added an AI
             Mircosoft Certificate to my curent skills set. Let's code with

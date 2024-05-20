@@ -7,7 +7,7 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a
-        href="https://www.linkedin.com/in/siphosethu-mkandwana-a80018279/"
+        href="https://www.linkedin.com/in/siphosethu-samantha-m//"
         target="_blank"
         rel="noreferrer"
       >

@@ -1,7 +1,7 @@
 import React from "react";
 import "./projects.css";
 import IMG1 from "../../assets/fanta.png";
-import IMG2 from "../../assets/movie-m-h.png";
+import IMG2 from "../../assets/movie-rush.png";
 import IMG3 from "../../assets/zoom-car-hire.png";
 import IMG4 from "../../assets/nikey.png";
 
@@ -10,7 +10,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Fanta Explosion of Flavours App",
-    info: "Project completed using Html and CSS ,Repository found on Github, Mobile responsive and  Deployed using Vercel.",
+    info: "Project completed using Javascript, Html5 and CSS ,Repository found on Github, Mobile responsive and  Deployed using Vercel.",
     github: "https://github.com/SamanthaMk/fanta-explosion",
     demo: "https://fanta-explosion.vercel.app/",
     paragraph:
@@ -20,11 +20,11 @@ const data = [
     id: 2,
     image: IMG2,
     title: "Movie Rush APP",
-    info: "Project completed using Html and CSS ,Repository found on Github,  Mobile responsive and  Deployed using Vercel.",
+    info: "Project completed using Javascript,Html and CSS ,Repository found on Github,  Mobile responsive and  Deployed using Vercel.",
     github: "https://github.com/SamanthaMk/movie-rush",
     demo: "https://movie-rush-henna.vercel.app/",
     paragraph:
-      "Welcome to Movie Rush, where every movie night is an adventure! Explore a curated selection of blockbuster hits, timeless classics, and hidden gems. With personalized recommendations and easy navigation, finding your next favorite film is a thrill in itself. Join us and elevate your movie-watching experience to new heights!",
+      "Welcome to Movie Rush app, where every movie night is an adventure! Explore a curated selection of blockbuster hits, timeless classics, and hidden gems. With personalized recommendations and easy navigation, finding your next favorite film is a thrill in itself. Join us and elevate your movie-watching experience to new heights!",
   },
   {
     id: 3,
